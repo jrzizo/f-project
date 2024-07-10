@@ -1,0 +1,45 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: small;
+}
+h2 {
+  color: hsl(218, 44%, 22%);
+  /* font-size: large; */
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  /* height: 100vh;
+  width: 100vw; */
+}
+.center {
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex: 1; */
+}
+.card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 5%;
+  width: 290px;
+  height: 460px;
+  text-align: center;
+}
+
+header {
+padding: 20px;
+} 
+main {
+   min-height: calc(115vh - 112px - 50px); 
+}
+@media screen and (max-width:380px) {
+.center {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+}
